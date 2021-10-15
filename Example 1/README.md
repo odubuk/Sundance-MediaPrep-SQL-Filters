@@ -1,6 +1,6 @@
 # Sundance-MediaPrep-SQL-Filters Example 1
 
-**IMAGES CONTAIN REDACTIONS DUE TO SENSITIVE INFORMATION**
+Note:  Accompanying images contain redactions in order to protect sensitive information.
 
 ## Problem
 
