@@ -6,7 +6,7 @@
 
 ## Action
   
-######   Navigating to Inventory -> Filters -> Edit Custom Filters ([Image 2](sql_filters1-2.png)), we can add a new filter function, which we'll label "PAST KILL DATE".  This function will look at the "Past Kill Date" (determined by the user) of all files within the database, and compare them to today's date ([Image 3](sql_filters1-3.png)).  If the "Past Kill Date" is a date prior to, or including today, it will return display the file, otherwise it will not display the file.
+######   Navigating to *Inventory -> Filters -> Edit Custom Filters* ([Image 2](sql_filters1-2.png)), we can add a new filter function, which we'll label "PAST KILL DATE".  This function will look at the "Past Kill Date" (determined by the user) of all files within the database, and compare them to today's date ([Image 3](sql_filters1-3.png)).  If the "Past Kill Date" is a date prior to, or including today, it will return display the file, otherwise it will not display the file.
 
 ## Outcome
 
