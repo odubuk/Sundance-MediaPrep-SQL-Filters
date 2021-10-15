@@ -10,4 +10,4 @@
 
 ## Outcome
 
-######   Using our newly created filter function, we can now return a result of only the 2,134 files in the database labelled as "Past Kill Date" ([Image 4](sql_filters1-4.png)).  This allows the user to easily purge outdated/obsolete data without having to navigate the entire database and risk accidental purging of current data.
+######   Using our newly created filter function, we can now return a result of only the 2,134 files in the database labelled as "Past Kill Date" ([Image 4](sql_filters1-4.png)).  This allows the user to easily purge outdated/obsolete data without having to navigate the entire database and risk accidental purging of current data.  We can confirm that all visible files are past their kill date due to all files appearing in ORANGE.
