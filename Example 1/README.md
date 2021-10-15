@@ -1,1 +1,13 @@
+# Sundance-MediaPrep-SQL-Filters Example 1
 
+## Problem
+
+######   The user needs to access all files in the database that are labelled "Past Kill Date" in order to purge obsolete data.  There is no pre-existing filter to sort the database by these means, resulting in a return of all 13,543 files ([Image 1](sql_filters1-1.png)).  Files that are not "Past Kill Date" appear in GREEN, while files that are "Past Kill Date" appear in ORANGE.
+
+## Action
+  
+######   Navigating to Inventory -> Filters -> Edit Custom Filters ([Image 2](sql_filters1-2.png)), we can add a new filter function, which we'll label "PAST KILL DATE".  This function will look at the "Past Kill Date" (determined by the user) of all files within the database, and compare them to today's date ([Image 3](sql_filters1-3.png)).  If the "Past Kill Date" is a date prior to, or including today, it will return display the file, otherwise it will not display the file.
+
+## Outcome
+
+######   Using our newly created filter function, we can now return a result of only the 2,134 files in the database labelled as "Past Kill Date" ([Image 4](sql_filters1-4.png)).  This allows the user to easily purge outdated/obsolete data without having to navigate the entire database and risk accidental purging of current data.
