@@ -2,7 +2,7 @@
 
 ## Problem
 
-######   The user needs to access all files in the database that are labelled "Past Kill Date" in order to purge obsolete data.  There is no pre-existing filter to sort the database by these means, resulting in a return of all 13,543 files ([Image 1](sql_filters1-1.png)).  Files that are "Not Past Kill Date" appear in GREEN, while files that are "Past Kill Date" appear in ORANGE.
+######   The user needs to access all files in the database that are labelled "Past Kill Date" in order to purge obsolete data.  There is no pre-existing filter to sort the database by this criteria, resulting in a return of all 13,543 files ([Image 1](sql_filters1-1.png)).  Files that are "Not Past Kill Date" appear in GREEN, while files that are "Past Kill Date" appear in ORANGE.
 
 ## Action
   
