@@ -1,5 +1,7 @@
 # Sundance-MediaPrep-SQL-Filters Example 1
 
+**IMAGES CONTAIN REDACTIONS DUE TO SENSITIVE INFORMATION**
+
 ## Problem
 
 ######   The user needs to access all files in the database that are labelled "Past Kill Date" in order to purge obsolete data.  There is no pre-existing filter to sort the database by this criteria, resulting in a return of all 13,543 files ([Image 1](sql_filters1-1.png)).
