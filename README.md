@@ -1,6 +1,6 @@
 # Sundance-MediaPrep-SQL-Filters
 
-##Description:
+## Description:
 
 Sundance MediaPrep features the ability to create content filters which allows the user to access content within the database that matches specific criteria.  Examples of these labels include "Movies", and "Commercials", and more. 
 
@@ -9,7 +9,7 @@ For example, a user can use the "Movies" filter to have the application only sho
 This repository contains visual examples of filters I have developed, as well accompanying README's which detail different elements specific to each content filter.
 
 
-##FAQ:
+## FAQ:
 
 -   What is Sundance MediaPrep?
 
