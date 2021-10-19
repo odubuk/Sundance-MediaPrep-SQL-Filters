@@ -19,4 +19,4 @@
 
 ## Final Thoughts
 
-######   Because we know that the database MUST send any files ending in "_2PROD" to the Production department storage drive, but they do not always need to belong to a group, this revision ensures that the filter function will reliably return the desired results to the user.
+######   Because we know that the database is programmed to automatically send any files ending in "_2PROD" to the Production department storage drive, but they do not always need to belong to a group, this revision ensures that the filter function will reliably return the desired results to the user.
