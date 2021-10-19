@@ -12,10 +12,10 @@
 ## Outcome
 
 ######   Using our revised "TO PRODUCTION ONLY" filter function, we now return all files either 
-- in the "2PROD" group, or
-- files with a filename ending in "_2PROD"
+######   - in the "2PROD" group, or
+######   - files with a filename ending in "_2PROD"
 
-This revised filter function returns a total of 13 files ([Image 5](sql_filters2-5.png)).
+######   This revised filter function returns a total of 13 files ([Image 5](sql_filters2-5.png)).
 
 ## Final Thoughts
 
