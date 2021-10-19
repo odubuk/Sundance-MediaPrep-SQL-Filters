@@ -11,7 +11,7 @@
 
 ## Outcome
 
-######   Using our revised "TO PRODUCTION ONLY" filter function, we now return all files either 
+######   Using our revised "TO PRODUCTION ONLY" filter function, we now return all files either: 
 ######   - in the "2PROD" group, or
 ######   - files with a filename ending in "_2PROD"
 
