@@ -7,7 +7,7 @@
 
 ## Action
   
-######   Using the existing "TO PRODUCTION ONLY" filter function ([Image 1](sql_filters2-1.png)), we are able to return all files in the database that belong to the group "2PROD" ([Image 2](sql_filters2-2.png)), which returns 4 files in total.  Closer inspection of the filter function shows that it is designed to call back all files that belong to the "2PROD" group ([Image 3](sql_filters2-3.png)), but does not account for files that do not belong to the "2PROD" group (The "Group" of a file is manually assigned by the user.)  A file is automatically sent to the Production department storage drive by the database when the file ends with the characters "_2PROD".  Knowing this, we can adjust the filter function to include any files which end with those characters ([Image 4](sql_filters2-4.png)) 
+######   Using the existing "TO PRODUCTION ONLY" filter function ([Image 1](sql_filters2-1.png)), we are able to return all files in the database that belong to the group "2PROD" ([Image 2](sql_filters2-2.png)), which returns 4 files in total.  Closer inspection of the filter function shows that it is designed to call back all files that belong to the "2PROD" group ([Image 3](sql_filters2-3.png)), but does not account for files that do not belong to the "2PROD" group (The "Group" of a file is manually assigned by the user via a drop-down menu.)  A file is automatically sent to the Production department storage drive by the database when the file ends with the characters "_2PROD".  Knowing this, we can adjust the filter function to include any files which end with those characters ([Image 4](sql_filters2-4.png)) 
 
 ## Outcome
 
