@@ -8,7 +8,7 @@ Note:  Accompanying images contain redactions in order to protect sensitive info
 
 ## Action
   
-######   In order to create a filter function that will return all files in the datbase that are not checked "Ready for Air", I need to determine what the "Ready for Air" checkbox ([Image 1](sql_filters3-1.png])) is identified as for the sake of coding the function.  A quick Google search returns that the "Ready for Air" checkbox is identified as "Misc8" in the software.  Using this, we can create a filter function that will return all files in the database that have a "NULL" value for Misc8 ([Image 2](sql_filters3-2.png)).
+######   In order to create a filter function that will return all files in the datbase that are not checked "Ready for Air", I need to determine what the "Ready for Air" checkbox ([Image 1](sql_filters3-1.png)) is identified as for the sake of coding the function.  A quick Google search returns that the "Ready for Air" checkbox is identified as "Misc8" in the software.  Using this, we can create a filter function that will return all files in the database that have a "NULL" value for Misc8 ([Image 2](sql_filters3-2.png)).
 
 ## Outcome
 
