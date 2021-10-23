@@ -30,7 +30,7 @@
 ######   My goals in the development of these filters were as follows:
   
 ######   - Create filter functions which solve problems that the preexisting filters do not address.
-######   - Create filter functions which help the user to achieve a desired goal regardless of their expertise/understanding of the MediaPrep application.
+######   - Create filter functions which help the user to achieve a desired goal regardless of that user's expertise/understanding of the MediaPrep application.
 ######   - Perform quality assurance testing on developed filter functions to ensure that they produce the desired results.
 
 ######   More specific information pertaining to each example can be found in the example's accompanying README file.
